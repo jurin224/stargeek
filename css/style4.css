@@ -1,0 +1,61 @@
+body {
+    background-image: url(/stargeek/img/series.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 50px;
+}
+    
+.filme{
+    
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+}
+.filme > img {
+    max-width: 200px;
+}
+.filme::-webkit-scrollbar{
+    display: none;
+}
+.robertin{
+    color: #fff;
+    margin-top: 170px;
+    font-size: 50px;
+}
+.series{
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+}
+
+.series > img {
+    max-width: 200px;
+}
+
+.series::-webkit-scrollbar{
+    display: none;
+}
+.ronaldo{
+    color: white;
+    font-size: 50px;
+}
+.documentarios{
+    display: flex;
+    gap: 20px;
+    overflow: scroll;
+}
+.documentarios > img {
+    max-width: 200px;
+}
+.documentarios::-webkit-scrollbar{
+    display: none;
+}
+

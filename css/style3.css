@@ -1,13 +1,44 @@
 body {
     background-color: black;
 }
-.p > h1 {
+.p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.h1 {
    text-align: center;
    color: white;
    font-size: 60px;
 }
-.D{
-    margin: 0 auto;
-    width: 1px; 
+.principal{
+    display: flex;
+    margin: 150px;
+
+}
+.u{
+    margin: 80px;
+    height: 30px;
+}
+.ig{
+    margin: 80px;
+    height: 30px;
+}
+.racionais{
+    margin: 25px;
+    height: 10px;
+}
+.racionais > a > img{
+    margin: 50px;
+    height: 250px;
+}
+.botao1 {
+    background-color: red;
+    color: azure;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
